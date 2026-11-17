@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-tv-status",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Live Claude Code session status API for the TV launcher",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "STATUS_TZ=Asia/Singapore node --test test/"
+  }
+}

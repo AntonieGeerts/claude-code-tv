@@ -1,0 +1,15 @@
+# secrets / local config
+.env
+.env.local
+.env.*
+!env.example
+hooks/tv_status.env
+*.jks
+*.keystore
+*.key
+# build output
+launcher/build/
+node_modules/
+.vercel/
+__pycache__/
+*.apk

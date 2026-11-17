@@ -1,0 +1,13 @@
+{
+  "_comment": "Preset replies the TV can send. The TV only ever sends the id; the text below is what Claude receives. Edit freely (max 6 per group).",
+  "turn": [
+    { "id": "yes",      "label": "Yes",                  "text": "Yes, go ahead." },
+    { "id": "push-dev", "label": "Push & Commit to Dev", "text": "Commit all current changes with a clear message and push them to the dev branch (create it from the current branch if it doesn't exist). Do not deploy to production and do not merge into main." },
+    { "id": "wait",     "label": "Wait",                 "text": "Wait — don't make any further changes until I'm back at my desk. Just summarise where things stand." },
+    { "id": "no",       "label": "No",                   "text": "No, don't do that. Stop here and briefly summarise the current state." }
+  ],
+  "permission": [
+    { "id": "allow", "label": "Allow" },
+    { "id": "deny",  "label": "Deny" }
+  ]
+}
